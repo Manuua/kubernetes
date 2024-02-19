@@ -1,3 +1,6 @@
+##associa todos os servidos com o label app: servidor-python 
+## service balaceia a carga entre os pods
+
 apiVersion: v1 # Versão da API utilizada para o recurso
 kind: Service # Tipo de recurso (Service no caso)
 metadata:
