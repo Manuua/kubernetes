@@ -237,6 +237,7 @@ kubectl get services
 kubectl get svc
 
 # fazendo um proxy-forward para acessar a porta do service
+# redirecionamento de porta
 kubectl port-forward svc/servidor-python-service 8000:80
 
 # sair do redirecionamento de portas
